@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>浏览器无法打开问题</title>
+      <link href="/2021/09/22/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/09/22/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="浏览器显示无法打开网页ERR-CONNECTION-CLOSED"><a href="#浏览器显示无法打开网页ERR-CONNECTION-CLOSED" class="headerlink" title="浏览器显示无法打开网页ERR_CONNECTION_CLOSED "></a><center>浏览器显示无法打开网页ERR_CONNECTION_CLOSED </center></h1><p><a href="https://blog.csdn.net/qq_47706409/article/details/120413627"><font color=red>CNSD文章</font></a></p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><img src="https://i.loli.net/2021/09/22/hDnZKqczevOaFS9.png" alt="6.png"></p><blockquote><p>第一步，打开IE浏览器，选择-&gt;设置<br>  <img src="https://i.loli.net/2021/09/22/qXWcxiIKoV6grZY.png" alt="图片"></p><p>第二步，选择-&gt;internet选项<br><img src="https://i.loli.net/2021/09/22/qXWcxiIKoV6grZY.png" alt="1.png"></p><p>第三步，选择-&gt;连接<br><img src="https://i.loli.net/2021/09/22/qXWcxiIKoV6grZY.png" alt="1.png"></p><p>第四步，选择-&gt;局域网<br><img src="https://i.loli.net/2021/09/22/qXWcxiIKoV6grZY.png" alt="1.png"></p><p>第五步，取消代理服务器按钮<br><img src="https://i.loli.net/2021/09/22/qXWcxiIKoV6grZY.png" alt="1.png"><br> <center><strong>欢迎大家讨论</strong></center></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 浏览器问题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -导航 -分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一天</title>
       <link href="/2021/09/12/%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
       <url>/2021/09/12/%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
       
-        <content type="html"><![CDATA[<p>#您好<br>##第一篇文章</p><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><ul><li>列表1</li><li>列表2<br> a  子列表<br> b  字数哈</li><li>列表3<br><a href="https://fanyi.baidu.com/">导航</a><br><img src="https://cdn.pixabay.com/photo/2021/04/16/07/23/ao-dai-6182846__340.jpg" alt="美女"></li></ul><hr><p><em>字体为斜线</em><br><strong>加粗格式</strong><br>‘<html></html>‘<br>‘’’</p><html>    <head>    <title>主题</title>    </head></html>''']]></content>
+        <content type="html"><![CDATA[<p>#您好<br>##第一篇文章</p><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><ul><li>列表1</li><li>列表2<br> a  子列表<br> b  字数哈</li><li>列表3<br><a href="https://fanyi.baidu.com/">导航</a><br><img src="https://cdn.pixabay.com/photo/2021/04/16/07/23/ao-dai-6182846__340.jpg" alt="美女"></li></ul><hr><p><em>字体为斜线</em><br><strong>加粗格式</strong><br>‘<html></html>‘<br>‘’’</p><html>    <head>    <title>主题</title>    <img src="https://cdn.pixabay.com/photo/2021/04/16/07/23/ao-dai-6182846__340.jpg)"    </head></html>''']]></content>
       
       
       
