@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>mysql链接问题</title>
+      <link href="/2021/11/09/mysql/"/>
+      <url>/2021/11/09/mysql/</url>
+      
+        <content type="html"><![CDATA[<h1 id="本地之前有数据库，后来装了mysql8-0-导致本地连接不上去"><a href="#本地之前有数据库，后来装了mysql8-0-导致本地连接不上去" class="headerlink" title="本地之前有数据库，后来装了mysql8.0 导致本地连接不上去"></a><center><strong>本地之前有数据库，后来装了mysql8.0 导致本地连接不上去</strong></center></h1><p><img src="https://img2.baidu.com/it/u=3642281778,3198779999&fm=26&fmt=auto" alt="图片"></p><h2 id="1-选择数据库mysql"><a href="#1-选择数据库mysql" class="headerlink" title="1.选择数据库mysql"></a>1.选择数据库mysql</h2><pre><code>mysql&gt; use mysqlDatabase changedmysql&gt; select user,host,plugin,authentication_string from user;</code></pre><h2 id="2-更改加密方式"><a href="#2-更改加密方式" class="headerlink" title="2.更改加密方式"></a>2.更改加密方式</h2><pre><code>mysql&gt; ALTER USER &#39;root&#39;@&#39;localhost&#39; IDENTIFIED WITH mysql_native_password BY &#39;password&#39;;Query OK, 0 rows affected (0.35 sec)</code></pre><h2 id="3-刷新权限"><a href="#3-刷新权限" class="headerlink" title="3.刷新权限"></a>3.刷新权限</h2><pre><code>mysql&gt; FLUSH PRIVILEGES;Query OK, 0 rows affected (0.28 sec)</code></pre><h1 id="欢迎大家讨论"><a href="#欢迎大家讨论" class="headerlink" title="欢迎大家讨论"></a><center><strong>欢迎大家讨论</strong></center></h1><p><img src="https://img0.baidu.com/it/u=2151785380,2721701187&fm=26&fmt=auto" alt="图片"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -导航 -分享 -navicat premium and mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>浏览器无法打开问题</title>
       <link href="/2021/09/22/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E9%97%AE%E9%A2%98/"/>
       <url>/2021/09/22/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E9%97%AE%E9%A2%98/</url>
