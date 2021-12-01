@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>vscode-代码纠错</title>
+      <link href="/2021/12/02/vscode-%E4%BB%A3%E7%A0%81%E7%BA%A0%E9%94%99/"/>
+      <url>/2021/12/02/vscode-%E4%BB%A3%E7%A0%81%E7%BA%A0%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vscode代码单词学错无法报错"><a href="#vscode代码单词学错无法报错" class="headerlink" title="vscode代码单词学错无法报错"></a><center>vscode代码单词学错无法报错</center></h2><p>+在我们平时使用vscodes书写代码时，有时候会发现效果无法显现，但是控制台不报错。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;script text=&quot;text/javascript&quot;&gt;</span><br><span class="line">         Vue.config.productionTip = false; //阻止在使用vue时生成提示</span><br><span class="line">         </span><br><span class="line">        //  创建vue实例</span><br><span class="line">         const vm = new Vue(&#123;</span><br><span class="line">             el: &#x27;#root&#x27;,   //指定当前vue为那个容器服务</span><br><span class="line">             data: &#123;</span><br><span class="line">                 name: &#x27;vue&#x27;</span><br><span class="line">             &#125;</span><br><span class="line">         &#125;);</span><br><span class="line">    &lt;/script&gt;</span><br></pre></td></tr></table></figure><p><img src="https://img2.baidu.com/it/u=3666548066,2508071679&fm=26&fmt=auto" alt="图片"></p><ul><li>找了半天才找到，这是一个很细节的东西。</li></ul><blockquote><p><strong>本人创建了一个科技公众好：急兔宇宙科技</strong><br>上面有一些插件，喜欢能帮到大家。<strong>求多关注</strong></p></blockquote><p><img src="https://img0.baidu.com/it/u=3436810468,4123553368&fm=26&fmt=auto"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mysql链接问题</title>
       <link href="/2021/11/09/mysql/"/>
       <url>/2021/11/09/mysql/</url>
