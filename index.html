@@ -194,6 +194,106 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://hmcsjs.github.io/2022/01/04/vue-cli-de/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.pixabay.com/photo/2020/05/09/21/43/hacker-5151533__340.jpg">
+      <meta itemprop="name" content="南阳不衣">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="freeman">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/04/vue-cli-de/" class="post-title-link" itemprop="url">vue-cli-de</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-04 19:24:51 / 修改时间：19:48:21" itemprop="dateCreated datePublished" datetime="2022-01-04T19:24:51+08:00">2022-01-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Vue/" itemprop="url" rel="index"><span itemprop="name">Vue</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##vue create xxx 创建的xxx文件无法删除问题</p>
+<p><img src="https://img0.baidu.com/it/u=3707826331,1949481162&fm=26&fmt=auto"></p>
+<blockquote>
+<p>在我们利用vue脚手架，用vue create创建一个脚手架模板时，我们可以在里面写自己的组件。但是当我们不需要是，利用右键-&gt;删除时，会报错：有些文件需要管理员权限才能删除。由于里面的文件太多不知道怎么找到。</p>
+</blockquote>
+<ul>
+<li>解决办法：<ul>
+<li>以管理员运行cmd ，切换到xxx文件夹的目录（cmd命令： cd 文件夹-&gt;切换到这个文件夹，cd 盘符: - &gt;切换到该盘符）</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">G:\网站建设html\Vue&gt;cd vue_text</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这是我创建文件夹的目录。</p>
+</blockquote>
+<p> 输入：dir 查看里面的所有文件<br> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> G:\网站建设html\Vue\vue_text&gt;dir</span><br><span class="line"> 驱动器 G 中的卷是 新加卷</span><br><span class="line"> 卷的序列号是 D4AA-CF27</span><br><span class="line"></span><br><span class="line"> G:\网站建设html\Vue\vue_text 的目录</span><br><span class="line"></span><br><span class="line">2022/01/04  17:55    &lt;DIR&gt;          .</span><br><span class="line">2022/01/04  17:55    &lt;DIR&gt;          ..</span><br><span class="line">2021/12/22  23:28               231 .gitignore</span><br><span class="line">2021/12/22  23:28                73 babel.config.js</span><br><span class="line">2022/01/04  17:55    &lt;DIR&gt;          node_modules</span><br><span class="line">2022/01/04  17:55           489,345 package-lock.json</span><br><span class="line">2022/01/04  17:32               934 package.json</span><br><span class="line">2021/12/22  23:28               320 README.md</span><br><span class="line">2022/01/01  02:14             1,505 vue.config.js</span><br><span class="line">               6 个文件        492,408 字节</span><br><span class="line">               3 个目录 93,573,492,736 可用字节</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><p>可以看到里面有很多文件夹，用：dir * 删除所有文件夹</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">G:\网站建设html\Vue\vue_text&gt;del *</span><br><span class="line">G:\网站建设html\Vue\vue_text\*, 是否确认(Y/N)? y</span><br></pre></td></tr></table></figure>
+<p>输入y后回车就删掉了所有文件。</p>
+</li>
+<li><p>最后手动打开改文件夹，删除下面这两个文件：</p>
+<blockquote>
+<p>.git  文件夹<br>   node-modules 文件夹</p>
+</blockquote>
+</li>
+<li><p>回到命令行输入：cd .. 切回到上一级目录 </p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">G:\网站建设html\Vue\vue_text&gt;cd ..</span><br><span class="line">G:\网站建设html\Vue&gt;rd vue_text</span><br></pre></td></tr></table></figure></li>
+</ul>
+<blockquote>
+<p>然后输入：rd xxx就能删除文件夹了。<br>  管理员命令是有权限删除所有文件夹，所以以后遇到这种问题都可以用这种方法。<br>  <img src="https://img2.baidu.com/it/u=2330566858,1307179706&fm=26&fmt=auto"></p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://hmcsjs.github.io/2021/12/02/vscode-%E4%BB%A3%E7%A0%81%E7%BA%A0%E9%94%99/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -632,14 +732,14 @@ Query OK, 0 rows affected (0.28 sec)
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -690,7 +790,7 @@ Query OK, 0 rows affected (0.28 sec)
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
